@@ -1,0 +1,101 @@
+html,
+body {
+  margin: 0px;
+  padding: 10px;
+  border: 0px;
+  color: #000;
+  background: url(https://i.pinimg.com/originals/e6/aa/6a/e6aa6a186bb19b79b8493478b14dedb4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+}
+
+select#algorithm {
+  display: inline;
+}
+
+a.sourcelink {
+  padding-left: 20px;
+}
+
+a.toggle {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table.strings {
+  border-collapse: collapse;
+}
+
+td.table-char {
+  font-family: Nunito;
+  color: rgb(15, 15, 15);
+  border: none;
+  font-size: 24px;
+  width: 20px;
+}
+
+td.current {
+  background-color: red;
+  color: black;
+}
+
+td.match {
+  background-color: rgb(10, 177, 10);
+}
+a{
+  color: #0958ac;
+}
+
+div.display-area {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  outline: 1px solid lightgrey;
+}
+
+div.buttons {
+  display: inline-block;
+}
+
+td.statlabel {
+  text-align: right;
+  border: 1px solid lightgrey;
+  padding: 5px;
+}
+
+td.stat {
+  padding: 10px;
+  width: 60px;
+  border: 1px solid lightgrey;
+  text-align: right;
+}
+
+button.btn {
+  margin: 5px;
+}
+
+table.statstable {
+  display: inline-block;
+  padding: 15px 0px 10px 0px;
+}
+
+div.buttons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* div#plotArea {
+  padding-top: 15px;
+} */
+
+/* div.comparisonsplot {
+    margin-top: -50px;
+} */
+
+#range-slider {
+  width: 300px;
+}
